@@ -24,7 +24,7 @@ public class HammingCode {
         for (int i = 7; i >= 0; i--) {
             dataBits[i] = input.nextInt();
         }
-        System.out.print("Data Bits    :");
+        System.out.print("Word store :");
         for (int i = 7; i >= 0; i--) {
             System.out.print(dataBits[i]);
         }
